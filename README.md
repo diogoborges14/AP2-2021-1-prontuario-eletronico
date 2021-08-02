@@ -9,7 +9,7 @@ A instalação e compilação são simples. Os requisitos são:
 * [Git](https://git-scm.com/)
 * [GNU Make](https://www.gnu.org/software/make/)
 ## isso é um comentario
-//LuizFhellippe
+
 Basta criar uma cópia do repositório
 ```bash
 $ git clone
