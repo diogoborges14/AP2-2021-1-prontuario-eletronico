@@ -23,3 +23,5 @@ This project is licensed under the terms of the [MIT](https://choosealicense.com
 Diogo: @diogoborges14
 
 Maria Luiza: @Marialuizaqs
+
+Luiz Fhellippe: @LuizFhellippe
