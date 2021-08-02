@@ -21,3 +21,4 @@ This project is licensed under the terms of the [MIT](https://choosealicense.com
 
 ## Participante
 Diogo: @diogoborges14
+Maria: @Marialuizaqs
