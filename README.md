@@ -12,11 +12,12 @@ A instalação e compilação são simples. Os requisitos são:
 Basta criar uma cópia do repositório
 ```bash
 $ git clone
-
+```
 ## Contribuindo
 Sinta-se a vontade para enviar **pull requests**. Se deseja fazer modificações maiores, por favor, abra uma **issue** para discutirmos sobre as mudanças.
 
 ## License
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
 
-// Comentario
+## Participante
+Diogo: @diogoborges14
