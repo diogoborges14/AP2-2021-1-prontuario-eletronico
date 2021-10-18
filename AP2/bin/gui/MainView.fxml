@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
+   <content>
+      <VBox prefHeight="126.0" prefWidth="599.0">
+         <children>
+            <HBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="599.0">
+               <children>
+                  <VBox alignment="CENTER" maxWidth="-Infinity" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" onMouseClicked="#onMenuAtualizarAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Atualizar%20Cadastro.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Login">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="25.0" right="40.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="80.0">
+                     <children>
+                        <ImageView fx:id="imageViexCadastrar" fitHeight="50.0" fitWidth="55.0" onMouseClicked="#onMenuCadastrarAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Cadastrar%20Paciente.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Cadastrar">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="50.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="74.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" onMouseClicked="#onMenuAtualizarAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Buscar%20Paciente.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Buscar">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="50.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="76.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" onMouseClicked="#onMenuAtualizarAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Agendar%20Consulta.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Agendar">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="92.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" onMouseClicked="#onMenuAtualizarAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Mostrar%20Agendamentos.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Agendamentos">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="80.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="79.0" onMouseClicked="#onMenuAtualizarAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Prontuário.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="17.0" prefWidth="70.0" text="Prontuário">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="200.0" onMouseClicked="#onMenuPerfilAction" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Área%20de%20Trabalho/AP2%20Ícones/Mostrar%20Perfil.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Perfil">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

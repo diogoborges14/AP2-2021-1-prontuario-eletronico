@@ -1,23 +1,21 @@
 package entities;
 
-public class Client {
-    private String name;
+public class User {
+	private String name;
     private String email;
     private String cpf;
-    private String sex;
     private Double height;
     private Integer age;
     private String adress;
     private Integer number;
 
-    public Client(){
+    public User(){
 
     }
-    public Client(String name, String email, String cpf, String sex, double height, int age, String adress, int number){
+    public User(String name, String email, String cpf, double height, int age, String adress, int number){
         this.name = name;
         this.email = email;
         this.cpf = cpf;
-        this.sex = sex;
         this.height = height;
         this.age = age;
         this.adress = adress;
@@ -40,12 +38,6 @@ public class Client {
     }
     public String getCpf(){
         return cpf;
-    }
-    public void setSex(String sex){
-        this.sex = sex;
-    }
-    public String getSex(){
-        return sex;
     }
     public void setHeight(double height){
         this.height = height;
