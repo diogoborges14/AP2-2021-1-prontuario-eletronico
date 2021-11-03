@@ -8,6 +8,7 @@ import java.math.BigDecimal;
  */
 
 public class EMedico {
+    //Entidade do médico com as propriedades
     
     private Integer id;
     private String crm;

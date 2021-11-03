@@ -9,6 +9,7 @@ import javax.swing.JDesktopPane;
 import javax.swing.JOptionPane;
 
 public class CadastraMedico extends javax.swing.JInternalFrame {
+    //tela de cadsatro com as funcionalidades do formulário e os botões
 
     JDesktopPane pnlPrincipal;
 
@@ -288,7 +289,7 @@ public class CadastraMedico extends javax.swing.JInternalFrame {
     }                                            
 
 
-    // Variables declaration - do not modify                     
+    // Variables declaration                    
     private javax.swing.JButton btnExcluir;
     private javax.swing.JButton btnFechar;
     private javax.swing.JButton btnLimpar;

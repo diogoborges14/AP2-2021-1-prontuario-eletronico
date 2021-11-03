@@ -7,6 +7,7 @@ package entidade;
  */
 
 public class EPaciente {
+    //Entidade do paciente com as propriedades
     
     private Integer id;
     private String nome;

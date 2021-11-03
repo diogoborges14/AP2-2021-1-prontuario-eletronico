@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 
 public class NMedico {
-
+    //regra de como a entidade é passada para o banco de dados
     private PMedico oPMedico;
     
     public NMedico() {

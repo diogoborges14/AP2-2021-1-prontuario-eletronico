@@ -17,6 +17,7 @@ import util.Conexao;
  * @author Hallef.sud
  */
 public class PMedico {
+    //conexção com o banco de dados
     
     Conexao oBanco;
     

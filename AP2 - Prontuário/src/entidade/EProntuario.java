@@ -7,6 +7,7 @@ import java.sql.Date;
  * @author Vicente
  */
 public class EProntuario {
+    //Entidade do prontuário com as propriedades
 
     private int id;
     private String data;
