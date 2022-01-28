@@ -12,6 +12,8 @@ A instalação e compilação são simples. Os requisitos são:
 Basta criar uma cópia do repositório
 ```bash
 $ git clone
+$ make
+$ make run
 ```
 ## Contribuindo
 Sinta-se a vontade para enviar **pull requests**. Se deseja fazer modificações maiores, por favor, abra uma **issue** para discutirmos sobre as mudanças.
@@ -20,8 +22,6 @@ Sinta-se a vontade para enviar **pull requests**. Se deseja fazer modificações
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Participante
-Diogo: @diogoborges14
-
-Maria Luiza: @Marialuizaqs
-
-Luiz Fhellippe: @LuizFhellippe
+- Diogo: [@diogoborges14](https://github.com/diogoborges14)
+- Maria Luiza: [@Marialuizaqs](https://github.com/Marialuizaqs)
+- Luiz Fhellippe: [@LuizFhellippe](https://github.com/LuizFhellippe)
