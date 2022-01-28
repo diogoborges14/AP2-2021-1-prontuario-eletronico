@@ -9,6 +9,7 @@ A instalação e compilação são simples. Os requisitos são:
 * [Git](https://git-scm.com/)
 * [GNU Make](https://www.gnu.org/software/make/)
 ## isso é um comentario
+
 Basta criar uma cópia do repositório
 ```bash
 $ git clone
@@ -21,6 +22,7 @@ Sinta-se a vontade para enviar **pull requests**. Se deseja fazer modificações
 ## License
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
 
+=======
 ## Participante
 - Diogo: [@diogoborges14](https://github.com/diogoborges14)
 - Maria Luiza: [@Marialuizaqs](https://github.com/Marialuizaqs)
